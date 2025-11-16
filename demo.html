@@ -7,31 +7,28 @@
 </head>
 <body>
     <form action="/test">
+        <!-- 
+        http://127.0.0.1:5500/test?hid=&email=asdas%40asdas&password=sadsad&birthyDate=2025-11-13&color=%23510b0b 
+        http://127.0.0.1:5500/test?hid=&email=&password=&birthyDate=&color=%23000000
+        -->
+        <input type="hidden" name="hid" value="1">
         <div>
           <label for="email">введите email</label>
-          <input type="email" placeholder="Email пользователя" id="email">  
+          <input type="email" placeholder="Email пользователя" id="email" name="email" value="no@anitanger.lange">  
           <input type="number" placeholder="Email пользователя" id="email">
         </div>
         
         <label for="password">Введите пароль</label>
-        <input type="password" placeholder="Пароль пользователя" id="password">
+        <input type="password" placeholder="Пароль пользователя" id="password" name="password">
         <label for="bithyDate">Введите дату рождения</label>
-        <input type="date" placeholder="Дата рождения" id="birthyDate">
+        <input type="date" placeholder="Дата рождения" id="birthyDate" name="birthyDate">
 
         <label for="color">Введите цвет</label>
-        <input type="color" id="color">
+        <input type="color" id="color" name="color">
 
-      <label>
-        Число
-        <input type="number" placeholder="Число">
-      </label>
-
-      <button type="button">Кнопка</button>
-      <input type="button" value="Кнопка 2">
-
-      <button type="submit">Кнопка submit</button>
-      <input type="submit" value="Кнопка submit">
+      <button type="submit">Кнопка submit btn</button>
+      <input type="submit" value="Кнопка submit input">
     </form>
-    <button>Кнопка</button>
+    <button>Кнопка вне формы</button>
 </body>
 </html>
