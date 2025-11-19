@@ -38,9 +38,14 @@
       
         <label for="query">Введите запрос</label>
         <input type="text" placeholder="Запрос..." 
-        id="query" name="search_query" />
+        id="query" name="search_query" title="Введите только цифры"
+        minlength="3" maxlength="20" 
+        pattern="^[0-9]+$"
+          />
+        <input type="email" name="email" id="" />
+        <input type="url" name="url" id="" />
       </div>
-
+      <!-- pattern="/^\d+$/" -->
       
 
       <br/>
