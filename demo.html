@@ -163,7 +163,31 @@
       
       <button aria-label="Отправить форму" type="submit">Отправить</button>
       <button aria-label="Сброс" type="reset">Сбросить</button>
+    
     </form>
+
+    <form action="#" method="post">
+     
+      <div>
+        <label for="subject">Topic</label>
+        <select name="subject" id="subject">
+          
+            <option value="question">questions</option>
+            <option value="complaint" selected>complaint</option>
+        
+            
+        </select>  
+      </div>
+      <div>
+        <label for="messages">Your Message...</label>
+        <textarea name="topic" id="messages" cols="10" rows="10"
+        placeholder="Write text" maxlength="10" required></textarea>
+      </div>
+      <button type="submit">Send</button>
+     
+    </form>
+      
+    
 
       </main>
       
