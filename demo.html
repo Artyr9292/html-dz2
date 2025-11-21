@@ -141,7 +141,30 @@
 
           <button type="submit">Отправить</button>
         </form>
-        
+
+        <!-- Делаем домашнее задание тренажер html формы -->
+        <form action="#" method="post">
+      <div>
+        <label for="name">Name- </label>
+        <input type="text" autocomplete="name"  name="name" id="name" placeholder="Name..." required  />
+      </div>
+      <div>
+        <label for="email">E-mail- </label>
+        <input type="email" autocomplete="email" value="" name="email" id="email" placeholder="E-mail..." required />
+      </div>
+      <div>
+        <label for="password">Password</label><br />
+        <input type="password" id="password" minlength="8" required name="password">
+      </div>
+      <div>
+        <label for="hids">him?</label>
+        <input type="hidden" id="hids" name="product_id" value="12345">
+      </div>
+      
+      <button aria-label="Отправить форму" type="submit">Отправить</button>
+      <button aria-label="Сброс" type="reset">Сбросить</button>
+    </form>
+
       </main>
       
      
