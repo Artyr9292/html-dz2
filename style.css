@@ -1,0 +1,21 @@
+main {
+    background-color: #1E1F29;
+}
+h3{
+    color: #FAFAFA;
+}
+label {
+    background-color: #2E2D3D;
+    color: #FAFAFA;
+}
+input,select,textarea {
+    background-color: #2E2D3D;
+    color: #FAFAFA;
+}
+button{
+    color: #FAFAFA;
+    background-color: #6C38CC;
+}
+label {
+    color: #AFB2BF;
+}
