@@ -1,3 +1,10 @@
+ul li:first-child {
+    color: #6C38CC;
+}
+ul li:last-child {
+    color: aquamarine;
+}
+
 header a {
     font-weight: 400;
     font-size: 16px;
@@ -38,9 +45,18 @@ p {
     background-color: #4262FF;
     color: #FFF;
 }
+#heroButton:hover {
+    background-color: #030a2b;
+}
+#heroButton:active {
+    background-color: #3c9600;
+}
 .link {
     color: #4262FF;
     text-decoration: underline;
+}
+.link:hover {
+    color: #061a7a;
 }
 
 .heroForm + p {
@@ -48,5 +64,8 @@ p {
     font-size: 14px;
     line-height: 20px;
     color: #050038;
+}
+.heroForm input:focus {
+    background-color: #061a7a;
 }
 

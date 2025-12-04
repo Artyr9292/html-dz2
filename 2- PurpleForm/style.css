@@ -1,3 +1,5 @@
+
+
 main {
     background-color: #1E1F29;
 }
@@ -16,6 +18,14 @@ button{
     color: #FAFAFA;
     background-color: #6C38CC;
 }
+
+input:invalid {
+    background-color: green;
+}
+input:valid {
+    background-color: yellow;
+}
+
 label {
     color: #AFB2BF;
 }
@@ -26,6 +36,8 @@ h3 {
     font-style: normal;
     font-family: 'Andale Mono', monospace;
 }
+/*
 input[type="email"] {
     background-color: red;
 }
+    */
