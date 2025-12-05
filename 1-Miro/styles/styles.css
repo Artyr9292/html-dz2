@@ -1,3 +1,10 @@
+*::selection {
+    background-color: #4262FF;
+}
+a::selection {
+    background-color: #0dd2d2;
+}
+
 ul li:nth-last-child(2) {
     color: red;
 }
@@ -64,3 +71,13 @@ p {
 p:not(.section__text) {
     color: red;
 }
+
+a::after {
+    content: 'слева';
+    color: red;
+}
+a::before {
+    content: 'после';
+    color: red;
+}
+
