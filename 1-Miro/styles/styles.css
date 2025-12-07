@@ -54,10 +54,6 @@ p {
 #heroButton:active {
     background-color: #3c9600;
 }
-body {
-    color: blueviolet;
-}
-
 
 .heroForm + p {
     font-weight: 400;
@@ -85,20 +81,13 @@ nav ul {
     content: url(../image/check.svg);
 }
 
-.experiment {
-    background: red;
-}
-.experimentRed {
-    background-color: red;
-}
-div.experimentBlue {
-    background-color: #4262FF;
-}
+
+
 .experimentBlue {
     background-color: blue;
+    width: 400px;
+    height: 300px;
 } 
-#exp {
-    background-color: darkblue;
-}
+
 
 
