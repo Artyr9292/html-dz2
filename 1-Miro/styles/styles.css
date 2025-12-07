@@ -46,6 +46,9 @@ p {
 #heroButton:hover {
     background-color: #030a2b;
 }
+#heroButton.test.test2 {
+    background-color: #4262FF;
+}
 #heroButton:active {
     background-color: #3c9600;
 }
@@ -79,6 +82,18 @@ nav ul {
 
 .experiment {
     background: red;
+}
+.experimentRed {
+    background-color: red;
+}
+div.experimentBlue {
+    background-color: #4262FF;
+}
+.experimentBlue {
+    background-color: blue;
+} 
+#exp {
+    background-color: darkblue;
 }
 
 
