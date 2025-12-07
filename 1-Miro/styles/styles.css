@@ -46,11 +46,16 @@ p {
 #heroButton:hover {
     background-color: #030a2b;
 }
+/*
 #heroButton.test.test2 {
     background-color: #4262FF;
 }
+*/
 #heroButton:active {
     background-color: #3c9600;
+}
+button {
+    background: red;
 }
 
 
