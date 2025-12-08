@@ -84,15 +84,14 @@ nav ul {
 
 
 .experimentBlue {
-    background-color: blue;
+    background-color: #071766;
+    color: whitesmoke;
     width: 400px;
     height: 300px;
+    padding: 10px 20px 50px 40px;
+    border: 2px solid red;
 } 
-.border1{
-    border: 5px solid lime;
-    border-left: 12px solid green;
-    border-radius: 10%;
-}
+
 
 
 
