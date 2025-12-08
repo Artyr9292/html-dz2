@@ -88,6 +88,11 @@ nav ul {
     width: 400px;
     height: 300px;
 } 
+.border1{
+    border: 5px solid lime;
+    border-left: 12px solid green;
+    border-radius: 10%;
+}
 
 
 
