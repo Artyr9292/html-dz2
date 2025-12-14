@@ -138,6 +138,47 @@ input#email {
     margin: 30px 20px 10px 40px;
 } 
 
+.divR{
+    background-color: red;
+    display: inline;
+}
+.divB {
+    background-color: blue;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.divG {
+    background-color: green;
+    display: inline;
+}
+.spanR{
+    background-color: red;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.spanB {
+    background-color: blue;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.spanG {
+    background-color: green;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
 
 
 
