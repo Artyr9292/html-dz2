@@ -1,41 +1,77 @@
-
-
-main {
+body {
     background-color: #1E1F29;
+}
+* {
+    box-sizing: border-box;
+}
+main {
+    background-color: grey;
+    border-radius: 10px;
+    padding: 48px;
 }
 h3{
     color: #FAFAFA;
-}
-label {
-    background-color: #2E2D3D;
-    color: #FAFAFA;
+    margin-bottom:32px;
+    font-size: 36px;
+    text-align: center;
+    font-family: sans-serif;
 }
 input,select,textarea {
     background-color: #2E2D3D;
     color: #FAFAFA;
+    font-size: 16px;
+    line-height: 120%;
+    font-family: sans-serif;
+    padding: 27px 48px 12px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+.field {
+    margin-bottom: 16px;
+    position: relative;
+}
+.field img {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+}
+label.comment {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+label {
+    background-color: #2E2D3D;
+    color: #AFB2BF;
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    
+}
+input::placeholder,select::placeholder,textarea::placeholder {
+    color: #1a1b27;
+    font-size: 16px;
 }
 button{
     color: #FAFAFA;
     background-color: #6C38CC;
-}
-
-input:invalid {
-    background-color: green;
-}
-input:valid {
-    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
 }
 
 label {
     color: #AFB2BF;
 }
-h3 {
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 120%;
-    font-style: normal;
-    font-family: 'Andale Mono', monospace;
-}
+
 /*
 input[type="email"] {
     background-color: red;
