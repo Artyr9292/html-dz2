@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0px;
 }
@@ -50,9 +53,14 @@ footer a {
 #heroButton {
     background-color: #4262FF;
     color: #FFF;
+    transition: background-color 10s 1s, border-radius 10s 1s;
+    /*transition: background-color 10s 2s, border-radius 10s 2s;*/
+    
 }
 #heroButton:hover {
-    background-color: #030a2b;
+    background-color: #253cad;
+    border-radius: 50%;
+    
 }
 /*
 #heroButton.test.test2 {
