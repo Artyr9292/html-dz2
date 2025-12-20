@@ -166,30 +166,30 @@ html {
     height: 200px;
     background-color: #4262FF;
     margin: 10px;
-    transition: padding-left 1s ;
+    color: white;
+    font-size: 24px;
+    /*transform: translateX(-300px);
+    transition: transform 1s;*/
 
 }
-.exp div:nth-child(1):hover {
-    padding-left: 400px;
-    transition-timing-function: ease;
+.exp div:nth-child(1) {
+    transform: rotate(45deg);
+    transform-origin: left bottom;
    
 }
-.exp div:nth-child(2):hover {
-    padding-left: 400px;
-    transition-timing-function: ease-in-out;
+.exp div:nth-child(2) {
+    transform: scale(2, 1);
     
 }
-.exp div:nth-child(3):hover {
-    padding-left: 400px;
-    transition-timing-function: linear;
+.exp div:nth-child(3) {
+    transform: translateX(300px);
+    
 }
 .exp div:nth-child(4):hover {
-    padding-left: 400px;
-    transition-timing-function: steps(6, end);
+    transform: skew(10deg);
 }
 .exp div:nth-child(5):hover {
-    padding-left: 400px;
-    transition-timing-function: cubic-bezier(.1,.94,.92,.31);
+    
 }
 
 
