@@ -5,6 +5,40 @@ body {
     margin: 0px;
 }
 
+header a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #050038;
+    text-decoration: none;
+}
+header > a {
+    font-size: 22px;
+    font-style: italic;
+}
+
+h1 {
+    margin: 0 0 17px 0;
+    text-align: center;
+    font-size: 6em;
+}
+
+h1, h2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vmin;
+    line-height: 56px;
+    color: #050038;
+    margin-bottom: 20px;
+}
+#hero {
+    font-size: 16px;
+}
+.heroText {
+    font-size: 2em;
+}
+
 nav {
     padding: 33px 50px;
     border-bottom: 1px solid #F2F2F2;
@@ -18,15 +52,6 @@ nav ul {
 }
 ul li:nth-last-child(2) {
     color: red;
-}
-
-footer {
-    background-color: #050038;
-    padding: 46px 40px;
-}
-footer a {
-    color: white;
-    text-decoration: none;
 }
 
 .heroForm + p {
@@ -79,32 +104,6 @@ footer a {
     color: #122db6;
 }
 
-header a {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #050038;
-    text-decoration: none;
-}
-header > a {
-    font-size: 22px;
-    font-style: italic;
-}
-
-h1 {
-    margin: 0 0 17px 0;
-    text-align: center;
-}
-
-h1, h2 {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 48px;
-    line-height: 56px;
-    color: #050038;
-    margin-bottom: 20px;
-}
 p {
     font-family: 'Roboto';
     font-weight: 400;
@@ -136,15 +135,6 @@ input#email {
     padding: 10px 20px;
 }
 
-#hero {
-    font-size: 16px;
-}
-h1 {
-    font-size: 6em;
-}
-.heroText {
-    font-size: 2em;
-}
 #heroButton {
     height: 3em;
     border-radius: 2em;
@@ -156,9 +146,6 @@ h1 {
 ul > li {
     font-size: 2rem;
     margin-bottom: 1rem;
-}
-html {
-    font-size: 10px;
 }
 
 .exp div {
@@ -197,16 +184,15 @@ html {
     animation-play-state: paused;
 }
 
-@media (min-width: 500px) {
-    h1 {
-        color: red;
-    }
+footer {
+    background-color: #050038;
+    padding: 46px 40px;
 }
-@media (max-width: 500px) {
-    h2 {
-        display: none;
-    }
+footer a {
+    color: white;
+    text-decoration: none;
 }
+
 
 
 
