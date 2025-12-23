@@ -8,6 +8,9 @@ main {
     background-color: grey;
     border-radius: 10px;
     padding: 48px;
+    max-width: 500px;
+    min-width: 360px;
+    margin: 0 auto;
 }
 h3{
     color: #FAFAFA;
