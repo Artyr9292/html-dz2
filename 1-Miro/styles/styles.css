@@ -6,7 +6,10 @@ body {
     font-family: "Lato", sans-serif;
     margin: 0px;
 }
-
+header {
+    border-bottom: 1px solid #F2F2F2;
+    margin-bottom: 60px;
+}
 header a {
     font-weight: 400;
     font-size: 16px;
@@ -21,7 +24,7 @@ header > a {
 
 h1 {
     margin: 0 0 17px 0;
-    text-align: center;
+    text-align: left;
     /*font-size: 6em;*/
 }
 
@@ -34,42 +37,79 @@ h1, h2 {
     color: #050038;
     margin-bottom: 20px;
 }
-#hero {
-    font-size: 16px;
+section {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 40px;
+    margin-bottom: 200px;
 }
 .heroText {
     font-size: 2em;
+    color: #050038;
+    margin: 0 0 55px 0;
 }
 
 nav {
     padding: 33px 50px;
-    border-bottom: 1px solid #F2F2F2;
     margin-bottom: 60px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
+
 nav ul {
     list-style: square inside;
     padding: 0;
     margin: 0;
-    
+    display: flex;
+    gap: 34px;
+    list-style-type: none;
+}
+ul > li {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 ul li:nth-last-child(2) {
     color: red;
 }
-
+#hero {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+}
+.heroForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .heroForm + p {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #050038;
     margin: 8px 0 52px 0;
+    text-align: center;
+}
+.heroLogos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.heroForm input {
+    border-radius: 32px;
+    border: 1px solid #9B99AF;
+    height: 48px;
+    padding: 5px 10px;
 }
 .heroForm input:focus {
     background-color: #061a7a;
 }
 
-.heroText{
-    color: #050038;
-    margin: 0 0 55px 0;
+.img__logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
 }
 
 .section__text {
@@ -123,12 +163,6 @@ p {
     content: url(../image/check.svg);
 }
 
-input#email {
-    height: 38px;
-    border-radius: 32px;
-    border: 1px solid #9B99AF;
-    padding: 5px 10px;
-}
 .heroForm button {
     height: 48px;
     border-radius: 32px;
@@ -143,11 +177,6 @@ input#email {
     border: 1px solid #4262FF;
     padding: 1em 2em;
     font-size: 1em;
-}
-
-ul > li {
-    font-size: 2rem;
-    margin-bottom: 1rem;
 }
 
 .exp div {
