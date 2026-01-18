@@ -1,11 +1,10 @@
-/*
-БЭМ
-Б- Блок
-Э- Элемент блока
-М- Модификатор блока
-*/
+:root {
+   --color-primary: #6C38CC; 
+   --space-10: 10px;
+}
+
 body {
-    background: #16171D;
+    background: #16171D; 
 }
 /*
 .section-header {
@@ -26,14 +25,18 @@ body {
     border-radius: 10px;
     border: none;
     background: none;
+
+    margin-bottom: var(--space-10);
 }
 .button_primary {
-    background: #6C38CC;
+    background: var(--color-primary, red);
+    /*background: #6C38CC;*/
     color: white;
 }
 .button_ghost {
     border: 1px solid #4D5064;
     color: white;
+    --color-primary: #6C38CC;
 }
 
 .hero__button {
