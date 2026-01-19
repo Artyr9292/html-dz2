@@ -1,73 +1,11 @@
 :root {
    --color-primary: #6C38CC; 
    --space-10: 10px;
-   --scale: 2; 
 }
-
+html {
+    --color-primary: green;
+}
 body {
     background: #16171D; 
 }
-/*
-.section-header {
 
-}
-.section-header__top {
-
-}
-.section-header__h2 {
-
-}
-*/
-
-/*
-.button {
-    padding: 16px 32px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 120%;
-    border-radius: 10px;
-    border: none;
-    background: none;
-
-    margin-bottom: var(--space-10);
-}
-.button_primary {
-    background: var(--color-primary, red);
-    color: white;
-}
-.button_ghost {
-    border: 1px solid #4D5064;
-    color: white;
-    --color-primary: #6C38CC;
-}
-
-.hero__button {
-    margin-top: 32px;
-}
-*/
-h1,h2,h3,h4 {
-    color: aqua;
-}
-
-.banner {
-    animation: enlarge 1000ms alternate infinite;
-    background-color: var(--color-primary);
-    color: var(--white);
-    padding: 20px;
-    transform: scale(pow 1.2, var(--scale, 0));
-}
-
-@property --scale {
-    syntax: "<number>";
-    inherits: false;
-    initial-value: 1;
-    
-}
-@keyframes enlarge {
-    0% {
-        --scale: 0;
-    }
-    100% {
-        --scale: 3;
-    }
-}
