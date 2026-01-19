@@ -1,6 +1,7 @@
 :root {
    --color-primary: #6C38CC; 
    --space-10: 10px;
+   --scale: 2; 
 }
 
 body {
@@ -17,6 +18,8 @@ body {
 
 }
 */
+
+/*
 .button {
     padding: 16px 32px;
     font-weight: 400;
@@ -30,7 +33,6 @@ body {
 }
 .button_primary {
     background: var(--color-primary, red);
-    /*background: #6C38CC;*/
     color: white;
 }
 .button_ghost {
@@ -41,4 +43,31 @@ body {
 
 .hero__button {
     margin-top: 32px;
+}
+*/
+h1,h2,h3,h4 {
+    color: aqua;
+}
+
+.banner {
+    animation: enlarge 1000ms alternate infinite;
+    background-color: var(--color-primary);
+    color: var(--white);
+    padding: 20px;
+    transform: scale(pow 1.2, var(--scale, 0));
+}
+
+@property --scale {
+    syntax: "<number>";
+    inherits: false;
+    initial-value: 1;
+    
+}
+@keyframes enlarge {
+    0% {
+        --scale: 0;
+    }
+    100% {
+        --scale: 3;
+    }
 }
