@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Школа разработки PurpleSchool</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,11 +28,12 @@
             <li class="menu__item"><a href="#">База знаний</a></li>
           </ul>
         </nav>
-        <a class="header__login" href="#">
+        <a class="header__login" href="#" aria-label="Вход в личный кабинет" aria-hidden="true">
           <img src="./images/user.svg" alt="Иконка пользователя">
           <div>Вход</div>
         </a>
-        <button class="header__mobile-menu-button">
+        <button class="header__mobile-menu-button"
+        aria-expanded="false" aria-haspopup="true">
           <img src="./images/menu.svg" alt="Мобильное меню">
         </button>
       </div>
@@ -45,8 +46,8 @@
           <div class="hero__left">
             <h1 class="hero__h1">Доступные курсы по</br> <span class="hero__h1_gradient">Разработке и DevOps </span></h1>
             <div class="hero__cta">
-              <button class="button button__primary">Выбрать курс</button>
-              <button class="button button__ghost">О школе</button>
+              <button tabindex="1" class="button button__primary">Выбрать курс</button>
+              <button tabindex="0" 2class="button button__ghost">О школе</button>
             </div>
           </div>
           <img class="hero__right" src="./images/section__image-photo.png" alt="">
