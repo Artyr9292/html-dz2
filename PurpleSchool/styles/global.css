@@ -1,6 +1,7 @@
 :root {
    --color-primary: #6C38CC; 
    --color-primary-hover: #5b2bb2;
+   --color-secondary: #E47AD5;
    --color-text: #FAFAFA;
    --color-link-hover: #AFB2BF;
    --color-bg: #16171D;
@@ -13,6 +14,11 @@
    --border-8: 8px;
    --border-10: 10px;
    --layout-width: 1172px;
+   --color-footer: #101114;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
