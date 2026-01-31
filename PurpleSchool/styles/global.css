@@ -3,6 +3,7 @@
    --color-primary-hover: #5b2bb2;
    --color-secondary: #E47AD5;
    --color-text: #FAFAFA;
+   --color-area: #E47AD5;
    --color-link-hover: #AFB2BF;
    --color-bg: #16171D;
    --color-bg-medium: #1E1F29;
@@ -19,6 +20,12 @@
 
 * {
     box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 body {
