@@ -46,13 +46,10 @@ body {
 }
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 15px;
 }
 
-.item_4 {
-    grid-column: auto / -1;
-}
 
 
 
