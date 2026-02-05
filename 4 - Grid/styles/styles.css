@@ -46,16 +46,19 @@ body {
 }
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
+    /*grid-template-columns: repeat(3, 100px);*/
+    grid-template-rows: repeat(10, 100px);
     gap: 15px;
+    justify-items: center;
+    align-items: center;  /* start,end,center */
+    justify-content: start;
 }
-.item_1 {
-    order: 1;
-    grid-column:  1 / -1;
+.item_9 {
+    justify-self: end;
+    align-self: start;
 }
-.item_2 {
-    order: 3;
-}
+
 
 
 
