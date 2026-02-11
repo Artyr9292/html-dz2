@@ -46,6 +46,8 @@
     display: flex;
     gap: 24px;
     margin-bottom: 32px;
+    overflow: scroll;
+    margin-right: -24px;
 }
 .courses_wrapper {
     display: grid;
