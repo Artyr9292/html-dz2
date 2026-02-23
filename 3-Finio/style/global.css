@@ -1,0 +1,35 @@
+:root {
+   --color-primary: #357EFE; 
+   --color-text: #FAFAFA;
+   --color-link-hover: #AFB2BF;
+
+   --border-radius-34: 34px;
+
+   --border-8: 8px;
+   --border-10: 10px;
+   --border-17: 17px;
+   --color-black: #000;
+   --color-grey: #1A1D25;
+   --color-text-gradient: #4E5D7C80;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: var(--color-bg);
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
