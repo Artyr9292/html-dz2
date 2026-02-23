@@ -237,6 +237,7 @@
 }
 /* */
 
+
 /* section saving */
 .section__saving {
     background-color: var(--color-primary);
@@ -298,11 +299,6 @@
 }
 */
 .trafic__img2 {
-    /*
-    position: relative;
-    right: 623px;
-    bottom: 24px;
-    */
     width: 80%;
 }
 
